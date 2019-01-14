@@ -27,6 +27,7 @@
     "markdown-toc": "markdown-toc -i README.md && markdown-toc -i docs/CONFIGURATION.md && markdown-toc -i docs/USAGE.md",
     "npm-script:build": "tsc -p npm-script",
     "prebuild": "npm run clean && mkdir ionic/dist && mkdir npm-script/dist",
+    "postinstall": "npm install && npm run build",
     "tslint": "tslint './ionic/src/**/*.ts'"
   },
   "dependencies": {

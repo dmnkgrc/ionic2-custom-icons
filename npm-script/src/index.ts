@@ -20,8 +20,7 @@ export function run() {
 
   cleanTargetDirs(config);
 
-  createIcons(config)
-    .then(() => createSassVarsFile(config))
+    createSassVarsFile(config)
     .then(() => {
       logInfo(`ionic2-custom-icons: Successfully created icons`);
     })
