@@ -1,21 +1,21 @@
 {
-  "name": "ionic2-custom-icons",
+  "name": "ionic3-custom-icons",
   "version": "0.6.0",
   "description": "A npm-script for creating custom icon fonts and Angular 4 directives to render the icons in your Ionic 3 app.",
   "author": {
-    "email": "gerrit.erpenstein.dev@gmail.com",
-    "name": "Gerrit Erpenstein"
+    "email": "dominikgbertapelle@gmail.com",
+    "name": "Dominik García"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GerritErpenstein/ionic2-custom-icons.git"
+    "url": "https://github.com/dmnkgrc/ionic2-custom-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/GerritErpenstein/ionic2-custom-icons/issues"
+    "url": "https://github.com/dmnkgrc/ionic2-custom-icons/issues"
   },
   "bin": {
-    "ionic2-custom-icons": "./npm-script/bin/ionic2-custom-icons.js"
+    "ionic3-custom-icons": "./npm-script/bin/ionic2-custom-icons.js"
   },
   "main": "directive/dist/index.js",
   "scripts": {
@@ -36,7 +36,8 @@
     "gulp-rename": "1.3.0",
     "gulp-template": "5.0.0",
     "lodash.merge": "4.6.1",
-    "merge-stream": "1.0.1"
+    "merge-stream": "1.0.1",
+    "webfont": "^8.2.1"
   },
   "devDependencies": {
     "@angular/common": "5.2.11",
@@ -56,6 +57,7 @@
     "markdown-toc": "1.2.0",
     "rxjs": "5.5.11",
     "tslint": "5.5.0",
+    "tslint-config-prettier": "^1.17.0",
     "tslint-ionic-rules": "0.0.11",
     "typescript": "2.5.3",
     "zone.js": "0.8.26"

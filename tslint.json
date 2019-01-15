@@ -1,3 +1,9 @@
-{
-  "extends": "tslint-ionic-rules"
+ {
+    "extends": [
+      "tslint-ionic-rules",
+      "tslint-config-prettier"
+    ],
+    "rules": {
+      "indent": [true, "spaces", 2]
+    }
 }
